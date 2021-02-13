@@ -1,0 +1,408 @@
+/************************************************
+	Conditionals
+************************************************/
+
+/* Menu Color Brightness */
+
+.organic-music-bg-light .site-title a,
+.organic-music-bg-light .site-title a:link,
+.organic-music-bg-light .site-title a:visited {
+	color: #000000;
+}
+.organic-music-bg-dark .site-title a,
+.organic-music-bg-dark .site-title a:link,
+.organic-music-bg-dark .site-title a:visited {
+	color: #ffffff;
+}
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_item a,
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_ancestor a,
+#nav-bar.organic-music-bg-light #navigation .menu .current-menu-item a,
+#nav-bar.organic-music-bg-light #navigation .menu .current-cat a,
+#nav-bar.organic-music-bg-light #navigation .menu li .current_page_item a,
+#nav-bar.organic-music-bg-light #navigation .menu li .current_page_item a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu li .current-menu-item a,
+#nav-bar.organic-music-bg-light #navigation .menu li .current-menu-item a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu li .current-cat a,
+#nav-bar.organic-music-bg-light #navigation .menu li .current-cat a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu li.current-menu-ancestor a,
+#nav-bar.organic-music-bg-light #navigation .menu li.current_page_ancestor a,
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_item ul li a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu .current-menu-item ul li a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu .current-menu-ancestor ul li a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_ancestor ul li a:hover,
+#nav-bar.organic-music-bg-light #navigation .menu .current-menu-ancestor ul .current_page_item a,
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_ancestor ul .current-menu-item a,
+#nav-bar.organic-music-bg-light #navigation .menu .current-cat ul li a:hover {
+	color: #000000;
+}
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_item ul li a,
+#nav-bar.organic-music-bg-light #navigation .menu .current-menu-item ul li a,
+#nav-bar.organic-music-bg-light #navigation .menu .current-menu-ancestor ul li a,
+#nav-bar.organic-music-bg-light #navigation .menu .current_page_ancestor ul li a,
+#nav-bar.organic-music-bg-light #navigation .menu .current-cat ul li a {
+	color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_item a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_ancestor a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-menu-item a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-cat a,
+#nav-bar.organic-music-bg-dark #navigation .menu li .current_page_item a,
+#nav-bar.organic-music-bg-dark #navigation .menu li .current_page_item a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu li .current-menu-item a,
+#nav-bar.organic-music-bg-dark #navigation .menu li .current-menu-item a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu li .current-cat a,
+#nav-bar.organic-music-bg-dark #navigation .menu li .current-cat a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu li.current-menu-ancestor a,
+#nav-bar.organic-music-bg-dark #navigation .menu li.current_page_ancestor a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_item ul li a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-menu-item ul li a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-menu-ancestor ul li a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_ancestor ul li a:hover,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-menu-ancestor ul .current_page_item a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_ancestor ul .current-menu-item a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-cat ul li a:hover {
+	color: #ffffff;
+}
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_item ul li a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-menu-item ul li a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-menu-ancestor ul li a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current_page_ancestor ul li a,
+#nav-bar.organic-music-bg-dark #navigation .menu .current-cat ul li a {
+	color: rgba(255, 255, 255, 0.6);
+}
+#nav-bar.organic-music-bg-dark .menu a,
+#nav-bar.organic-music-bg-dark .menu a:link,
+#nav-bar.organic-music-bg-dark .menu a:visited,
+#nav-bar.organic-music-bg-dark .mobile-menu a,
+#nav-bar.organic-music-bg-dark .mobile-menu a:link,
+#nav-bar.organic-music-bg-dark .mobile-menu a:visited {
+	color: #cccccc;
+	color: rgba(255, 255, 255, 0.6);
+	border-color: rgba(255, 255, 255, 0.24);
+}
+#nav-bar.organic-music-bg-light .menu a,
+#nav-bar.organic-music-bg-light .menu a:link,
+#nav-bar.organic-music-bg-light .menu a:visited,
+#nav-bar.organic-music-bg-light .mobile-menu a,
+#nav-bar.organic-music-bg-light .mobile-menu a:link,
+#nav-bar.organic-music-bg-light .mobile-menu a:visited {
+	color: #999999;
+	color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.organic-music-bg-dark .menu a:focus,
+#nav-bar.organic-music-bg-dark .menu a:hover,
+#nav-bar.organic-music-bg-dark .menu a:active,
+#nav-bar.organic-music-bg-dark .mobile-menu a:focus,
+#nav-bar.organic-music-bg-dark .mobile-menu a:hover,
+#nav-bar.organic-music-bg-dark .mobile-menu a:active {
+	color: #ffffff;
+}
+#nav-bar.organic-music-bg-light .menu a:focus,
+#nav-bar.organic-music-bg-light .menu a:hover,
+#nav-bar.organic-music-bg-light .menu a:active,
+#nav-bar.organic-music-bg-light .mobile-menu a:focus,
+#nav-bar.organic-music-bg-light .mobile-menu a:hover,
+#nav-bar.organic-music-bg-light .mobile-menu a:active {
+	color: #000000;
+	color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar.organic-music-bg-dark .menu ul.sub-menu,
+#nav-bar.organic-music-bg-dark .menu ul.children {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+#nav-bar.organic-music-bg-dark button.menu-toggle svg {
+	fill: rgba(255, 255, 255, 0.6);
+}
+#nav-bar.organic-music-bg-dark button.menu-toggle:hover svg {
+	fill: rgba(255, 255, 255, 1);
+}
+
+/* Down-Facing Arrows */
+
+#nav-bar.organic-music-bg-light .sf-arrows .sf-with-ul:after {
+	border-top-color: #999999;
+	border-top-color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.organic-music-bg-dark .sf-arrows .sf-with-ul:after {
+	border-top-color: #999999;
+	border-top-color: rgba(255, 255, 255, 0.4);
+}
+#nav-bar.organic-music-bg-light .sf-arrows li > .sf-with-ul:focus:after,
+#nav-bar.organic-music-bg-light .sf-arrows li:hover > .sf-with-ul:after,
+#nav-bar.organic-music-bg-light .sf-arrows li.sfHover > .sf-with-ul:after {
+	border-top-color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar.organic-music-bg-dark .sf-arrows li > .sf-with-ul:focus:after,
+#nav-bar.organic-music-bg-dark .sf-arrows li:hover > .sf-with-ul:after,
+#nav-bar.organic-music-bg-dark .sf-arrows li.sfHover > .sf-with-ul:after {
+	border-top-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Right-Facing Arrows */
+
+#nav-bar.organic-music-bg-light .sf-arrows li li .sf-with-ul:after,
+#nav-bar.organic-music-bg-dark .sf-arrows li li .sf-with-ul:after {
+	margin-top: -3px;
+	margin-right: -3px;
+	border-top-color: transparent;
+}
+#nav-bar.organic-music-bg-light .sf-arrows li li .sf-with-ul:after {
+	border-left-color: #999999;
+	border-left-color: rgba(0, 0, 0, 0.4);
+}
+#nav-bar.organic-music-bg-dark .sf-arrows li li .sf-with-ul:after {
+	border-left-color: #999999;
+	border-left-color: rgba(255, 255, 255, 0.4);
+}
+#nav-bar.organic-music-bg-light .sf-arrows li li > .sf-with-ul:focus:after,
+#nav-bar.organic-music-bg-light .sf-arrows li li:hover > .sf-with-ul:after,
+#nav-bar.organic-music-bg-light .sf-arrows li li.sfHover > .sf-with-ul:after {
+	border-top-color: transparent;
+	border-left-color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar.organic-music-bg-dark .sf-arrows li li > .sf-with-ul:focus:after,
+#nav-bar.organic-music-bg-dark .sf-arrows li li:hover > .sf-with-ul:after,
+#nav-bar.organic-music-bg-dark .sf-arrows li li.sfHover > .sf-with-ul:after {
+	border-top-color: transparent;
+	border-left-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer Color */
+
+.footer.organic-music-bg-dark, .footer.organic-music-bg-dark p {
+	color: rgba(255, 255, 255, 0.6);
+}
+.footer.organic-music-bg-dark h1, .footer.organic-music-bg-dark h2, .footer.organic-music-bg-dark h3,
+.footer.organic-music-bg-dark h4, .footer.organic-music-bg-dark h5, .footer.organic-music-bg-dark h6 {
+	color: #ffffff;
+}
+
+/* Background Image Brightness */
+
+.organic-music-bg-dark h1, .organic-music-bg-dark h2, .organic-music-bg-dark h3,
+.organic-music-bg-dark h4, .organic-music-bg-dark h5, .organic-music-bg-dark h6,
+.organic-music-bg-dark .headline {
+	color: #ffffff;
+}
+.organic-music-bg-dark, .organic-music-bg-dark p, .organic-music-bg-dark figcaption,
+.organic-music-bg-dark cite, .organic-music-bg-dark blockquote {
+	color: rgba(255, 255, 255, 0.8);
+}
+.organic-music-bg-dark blockquote {
+	border-color: rgba(255, 255, 255, 1) !important;
+}
+.organic-music-bg-light h1, .organic-music-bg-light h2, .organic-music-bg-light h3,
+.organic-music-bg-light h4, .organic-music-bg-light h5, .organic-music-bg-light h6,
+.organic-music-bg-dark .wp-block-organic-profile-block h3,
+.organic-music-bg-light .headline {
+	color: #000000;
+}
+.organic-music-bg-light, .organic-music-bg-light p , .organic-music-bg-light cite, .organic-music-bg-light blockquote,
+.organic-music-bg-dark .wp-block-organic-profile-block p {
+	color: rgba(0, 0, 0, 0.6);
+}
+.organic-music-bg-light blockquote {
+	border-color: rgba(0, 0, 0, 1);
+}
+
+/* Body Class */
+
+.music-header-video-active .wp-custom-header {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.music-header-video-active .wp-custom-header::before {
+	position: fixed;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	content: '';
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+}
+.music-header-video-active .wp-custom-header iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.music-home-page.music-header-video-active .wp-custom-header {
+	padding-bottom: 0px;
+}
+.music-home-page.music-header-video-active .wp-custom-header iframe {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	height: 100%;
+	width: 177.77777778vh;
+	min-width: 100%;
+	min-height: 56.25vw;
+}
+.music-home-page.music-header-video-active .wp-custom-header::before {
+	height: 100vh;
+}
+.music-header-inactive.music-desc-active #masthead .site-description {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	top: auto;
+}
+.music-header-inactive.music-desc-inactive #custom-header {
+	min-height: 0;
+}
+.music-logo-right #nav-bar .flex-row {
+	flex-direction: row-reverse;
+}
+.music-logo-center #nav-bar .flex-row {
+	display: block;
+	text-align: center;
+}
+.music-logo-center #nav-bar .site-logo {
+	display: block;
+}
+.music-logo-center #nav-bar .site-title,
+.music-logo-center #nav-bar .custom-logo-link {
+	text-align: center;
+	margin: 0px auto 0px;
+	padding-bottom: 0px;
+}
+.music-not-home-page .custom-logo-link img {
+	max-height: 80px;
+	width: auto;
+}
+.music-logo-center #navigation {
+	display: block;
+	position: relative;
+	text-align: center;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	right: auto;
+	top: auto;
+}
+.music-desc-left #masthead .site-description {
+	text-align: left;
+}
+.music-desc-right #masthead .site-description {
+	text-align: right;
+}
+.music-desc-inactive #masthead {
+	display: none;
+}
+.music-singular.music-sidebar-inactive .alignfull {
+	width: 100vw;
+	left: calc(-50vw + 50%);
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.music-singular.music-sidebar-inactive .alignwide {
+	width: calc(100% + 120px);
+	left: -60px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.music-sidebar-inactive.music-singular .alignfull .alignfull,
+.music-sidebar-inactive.music-singular .alignwide .alignwide,
+.music-sidebar-inactive.music-singular .alignfull .alignwide,
+.music-sidebar-inactive.music-singular .alignwide .alignfull {
+	max-width: 100%;
+	left: auto;
+}
+.music-sidebar-inactive.music-singular .wp-block-columns.alignwide {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.music-sidebar-inactive.music-singular .wp-block-columns.alignfull {
+	padding-left: 36px;
+	padding-right: 36px;
+}
+.music-sidebar-inactive.music-singular .headline {
+	text-align: center;
+}
+
+/* Elements */
+
+.blog .organic-music-bg-dark .article,
+.archive .organic-music-bg-dark .article {
+	background: #000000;
+}
+.blog .organic-music-bg-light .article,
+.archive .organic-music-bg-light .article {
+	background: #ffffff;
+}
+.organic-music-bg-dark table {
+	background: rgba(255, 255, 255, 0.04);
+}
+.organic-music-bg-dark table thead,
+.organic-music-bg-dark table tfoot,
+.organic-music-bg-dark table th,
+.organic-music-bg-dark table td {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.organic-music-bg-dark form input,
+.organic-music-bg-dark form input[type='url'],
+.organic-music-bg-dark form input[type='tel'],
+.organic-music-bg-dark form input[type='email'],
+.organic-music-bg-dark form input[type='text'],
+.organic-music-bg-dark form input[type='password'],
+.organic-music-bg-dark form input[type='number'],
+.organic-music-bg-dark form textarea {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.06);
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.organic-music-bg-dark select {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.06);
+	text-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
+	border-color: rgba(255, 255, 255, 0.24);
+	background-image:
+		linear-gradient(45deg, transparent 50%, white 50%),
+		linear-gradient(135deg, white 50%, transparent 50%),
+		linear-gradient(to right, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.24));
+}
+.organic-music-bg-dark .article h1:first-child + p,
+.organic-music-bg-dark .article > p:first-child,
+.organic-music-bg-dark .article span + p,
+.organic-music-bg-dark pre, .organic-music-bg-dark code {
+	color: #ffffff;
+}
+.organic-music-bg-dark blockquote {
+	border-color: #ffffff !important;
+}
+.organic-music-bg-dark code,
+.organic-music-bg-dark pre,
+.organic-music-bg-dark .project,
+.organic-music-bg-dark .testimonial,
+#nav-bar.organic-music-bg-dark,
+#nav-bar.organic-music-bg-dark .row,
+.footer.organic-music-bg-dark,
+.organic-music-bg-dark .post-date,
+.organic-music-bg-dark .post-taxonomy,
+.organic-music-bg-dark .post-navigation,
+.sidebar.organic-music-bg-dark .widget,
+.organic-music-bg-dark .social-icons li,
+.wp-custom-header.organic-music-bg-dark,
+.banner-img.organic-music-bg-dark,
+.organic-music-bg-dark .commentlist li,
+.organic-music-bg-dark .commentlist li:last-child,
+.organic-music-bg-dark .archive-title {
+	border-color: rgba(255, 255, 255, 0.24);
+}
+.organic-music-bg-dark .footer-information a,
+.organic-music-bg-dark .social-icons li a {
+	color: rgba(255, 255, 255, 0.7);
+}
+.organic-music-bg-dark .footer-information a:hover,
+.organic-music-bg-dark .social-icons li a:hover {
+	color: #ffffff;
+}
